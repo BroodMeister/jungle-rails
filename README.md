@@ -9,7 +9,7 @@ This is the home page that displays all products currently available. If a produ
 
 Users can login or register for a new account if they haven't already done so in the past.
 | Sign Up | Login |
-|:---:|:---:|
+| --- | --- |
 | !["Screenshot of signup page"](https://raw.githubusercontent.com/BroodMeister/jungle-rails/master/docs/signup.png) | !["Screenshot of login page"](https://raw.githubusercontent.com/BroodMeister/jungle-rails/master/docs/login.png) |
 
 When trying to look for a product to buy, users are able to sort them be categories.
@@ -17,7 +17,7 @@ When trying to look for a product to buy, users are able to sort them be categor
 
 Once a user has selected an item to buy, they can find it in their cart, like so. If a user's cart is empty, an alternate message will appear and politely urge them to continue shopping.
 | Empty Cart | Full Cart |
-|:---:|:---:|
+| --- | --- |
 | !["Screenshot of empty cart"](https://raw.githubusercontent.com/BroodMeister/jungle-rails/master/docs/cart-empty.png) | !["Screenshot of full cart"](https://raw.githubusercontent.com/BroodMeister/jungle-rails/master/docs/cart.png) |
 
 If the user attempts to purchase said item, they will be given a prompt to input a credit card number. Use the example provided at the end of this readme for this part.
@@ -32,12 +32,12 @@ Users can also write reviews for products, and delete their review later if they
 Admins have the ability to add new products and categories so long as they sign in.
 !["Screenshot of admin authentication"](https://raw.githubusercontent.com/BroodMeister/jungle-rails/master/docs/authentication.png)
 | New Category | New Product |
-|:---:|:---:|
+| --- | --- |
 | !["Screenshot of admin categories"](https://raw.githubusercontent.com/BroodMeister/jungle-rails/master/docs/admin-categories.png) | !["Screenshot of admin products"](https://raw.githubusercontent.com/BroodMeister/jungle-rails/master/docs/admin-product-creation.png) |
 
 The new products and categories will appear on the front page with the rest of the hard-coded ones.
 | Updated Home Page | New Product Listing |
-|:---:|:---:|
+| --- | --- |
 | !["Screenshot of updated home page"](https://raw.githubusercontent.com/BroodMeister/jungle-rails/master/docs/updated-home-page.png) | !["Screenshot of new product"](https://raw.githubusercontent.com/BroodMeister/jungle-rails/master/docs/new-product-listing.png) |
 
 ## Setup
