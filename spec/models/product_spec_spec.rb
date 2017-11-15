@@ -1,8 +1,9 @@
 require 'rails_helper'
 
 RSpec.describe Product, type: :model do
+
   describe 'Validations' do
-    # validation tests/examples here
+
     it 'should have a valid test' do
       @category = Category.new(id: 1, name: 'Electronics')
       @product = Product.new(name: 'iPod', quantity: 10, price: 99.99, category: @category)

@@ -1,7 +1,9 @@
 require 'rails_helper'
 
-describe 'Validations' do
-    # validation tests/examples here
+RSpec.describe User, type: :model do
+
+  describe 'Validations' do
+
     it 'should have a valid test' do
       @user = User.new(first_name: 'Frank', last_name: 'Rickard', email: 'frank_rickard@gmail.com',
                         password: 'frank1', password_confirmation: 'frank1')
